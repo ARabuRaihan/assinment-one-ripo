@@ -10,13 +10,31 @@
   font-size: 16px;
   color: #0D1321;
 }
+.main-nav-header{
+  font-size: 24px;
+  color: #0D1321;
+  margin-bottom: 10px;
+}
+.main-nav-btn{
+  width: 170px;
+  height: 47px;
+  margin-top: 15px;
+}
+.section-description{
+  font-size: 32px;
+}
+.skill{
+  background-color: #FFFFFF;
+}
 
+/* header style */
 
 /* nav style */
 nav{
   display: flex;
   justify-content: space-between;
   margin: 58px 228px 22px 33px;
+  text-align: center;
 }
 /*nav font-size */
 .nav-header{
@@ -28,47 +46,53 @@ font-size: 28px;
 /* niv> div style */
 .bg-img{
   background-image: url("../tssets/Hero-bg.png");
-  height: 652px;
-  width: 1441px;
-  text-align: center;
-
+  height: 594px;
+  width: 1040px;
 }
-div{
-  width: 998px;
-  height: 582px;
-  text-align: center;
-  margin-left: 300px;
-}
-.div-contain{
-  
-  list-style-type: none;
-}
-.div-title{
-  font-size: 48px;
-  width:980px ;
-}
-
-.div-btn{
-  width: 208px;
-  height: 66px;
-  color: #FFFFFF;
-  background-color:#0D1321 ;
-  font-size: 20px;
-}
-
-
 
 /* main style */
-.main-nav{
-  width: 1140px;
-  height: 1393px;
-  border-radius: 16px;
-  margin:148px 148px ;
+.main-section{
+  background-color:#FFFFFF;
+  width: 1040px;
+  height: 1268px;
+  margin: 135px 48px;
 }
 .main-div{
-  width: 946px;
-  height: 1233px;
-}
-.main-first-div{
+  width: 775px;
+  height: 102px;
+  background-color: #FFFFFF;
   text-align: center;
+  padding: 47px 0px;
 }
+.header-div{
+  font-size: 32px;
+}
+.main-nav1{
+  font-size: 24px;
+  width: 850px;
+  height: 220px;
+  padding: 48px;
+  justify-content: space-around;
+  gap: 130px;
+}
+.main-nav1 ul{
+  list-style: none;
+}
+.main-nav2{
+  font-size: 24px;
+  width: 850px;
+  height: 220px;
+  padding: 48px;
+  justify-content: start;
+  gap: 130px;
+}
+.main-niv3{
+  font-size: 24px;
+  width: 850px;
+  height: 220px;
+  padding: 48px;
+  justify-content: space-around;
+  gap: 130px;
+}
+
+
