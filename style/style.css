@@ -10,6 +10,9 @@
   font-size: 16px;
   color: #0D1321;
 }
+.header-div{
+  font-size: 32px;
+}
 .main-nav-header{
   font-size: 24px;
   color: #0D1321;
@@ -24,9 +27,10 @@
   font-size: 32px;
 }
 .skill{
-  background-color: #FFFFFF;
+  width: 284px;
+  height: 219px;
+  padding: 40px 40px;
 }
-
 /* header style */
 
 /* nav style */
@@ -64,9 +68,7 @@ font-size: 28px;
   text-align: center;
   padding: 47px 0px;
 }
-.header-div{
-  font-size: 32px;
-}
+
 .main-nav1{
   font-size: 24px;
   width: 850px;
@@ -94,5 +96,49 @@ font-size: 28px;
   justify-content: space-around;
   gap: 130px;
 }
+
+/* video contain */
+.video-contain-text{
+  text-align: center;
+  margin-bottom: 300px;
+}
+.video{
+  width: 1040px;
+  height: 250px;
+  text-align: center;
+}
+/* skills... */
+.skill-contain{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.skills{
+  display: flex;
+  justify-content: space-around;
+}
+/* footer-style */
+.footer-bg-img{
+  background-image: url("../tssets/handshake.jpg");
+  height: 313px;
+  width: 1040px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  text-align: center;
+}
+.footer-input{
+  width: 548px;
+  height: 52px;
+}
+.footer-button{
+  width: 120px;
+  height:52px;
+}
+.commitment{
+  display: flex;
+  
+}
+
 
 
