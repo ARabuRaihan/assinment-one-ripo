@@ -45,7 +45,9 @@ nav{
   font-size: 20px;
 }
 .nav-btn{
-font-size: 28px;
+font-size: 20px;
+width: 244px ;
+height: 57px;
 }
 /* niv> div style */
 .bg-img{
@@ -58,7 +60,6 @@ font-size: 28px;
 .main-section{
   background-color:#FFFFFF;
   width: 1040px;
-  height: 1268px;
   margin: 135px 48px;
 }
 .main-div{
@@ -67,6 +68,16 @@ font-size: 28px;
   background-color: #FFFFFF;
   text-align: center;
   padding: 47px 0px;
+  margin-bottom: 40px;
+}
+.bg-color{
+  background-color: rgb(13,19,23,3%);
+  padding: 10px 20px;
+
+}
+.main-niv{
+  background-color: rgb(255,255,255,100%);
+  height: 313px;
 }
 
 .main-nav1{
@@ -100,7 +111,7 @@ font-size: 28px;
 /* video contain */
 .video-contain-text{
   text-align: center;
-  margin-bottom: 300px;
+  margin-bottom: 30px;
 }
 .video{
   width: 1040px;
@@ -115,6 +126,10 @@ font-size: 28px;
 .skills{
   display: flex;
   justify-content: space-around;
+  list-style-type: none;
+}
+.skill1{
+  background-color:rgb{255,76,33,5%};
 }
 /* footer-style */
 .footer-bg-img{
@@ -137,7 +152,16 @@ font-size: 28px;
 }
 .commitment{
   display: flex;
+margin: 2px black solid;
+width: 1000px;
+height: 32px;
+padding: 150px 32px;
   
+}
+.commitment ul{
+  list-style-type: none;
+  display: flex;
+
 }
 
 
